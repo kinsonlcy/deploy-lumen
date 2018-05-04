@@ -62,7 +62,7 @@ git clone https://github.com/kinsonleung1996/api-bitly.git /var/www/html/api-bit
 
 # Composer Update
 cd /var/www/html/api-bitly
-mv hashids.php /var/www/html/api-bitly/vendor/vinkla/hashids/config
+
 mv .env.example .env
 # sudo add-apt-repository ppa:ondrej/php
 # sudo apt-get update
@@ -70,7 +70,7 @@ mv .env.example .env
 # sudo apt-get install php7.2-xml
 sudo chmod -R 777 /var/www/html/api-bitly/storage/
 composer install
-
+mv hashids.php /var/www/html/api-bitly/vendor/vinkla/hashids/config
 
 sudo apt-get install php7.0-gmp
 extension=php_gmp.so
