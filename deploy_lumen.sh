@@ -58,7 +58,7 @@ echo "Composer Installed Successfully!"
 sudo chmod -R 777 /var/www/html
 
 # Git Clone your Site
-git clone https://github.com/kinsonleung1996/api-bitly.git /var/www/html/api-bitly
+git clone https://github.com/kinsonlcy/api-bitly.git /var/www/html/api-bitly
 
 # Composer Update
 cd /var/www/html/api-bitly
